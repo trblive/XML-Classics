@@ -67,7 +67,7 @@ h1 {
 }
 
 #banner {
-    background-image: url("/images/hero.jpg");
+    background-image: url("/XML-Classics/images/hero.jpg");
     background-size: cover;
     background-position: center 20%;
     height: 80vh;
