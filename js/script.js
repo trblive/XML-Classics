@@ -1,7 +1,7 @@
 function loadContent(page) {
     'use strict';
 
-    const file = page === "home" ? "resources/home.html" : "resources/cars.html";
+    const file = page === "home" ? "/resources/home.html" : "/resources/cars.html";
     const xhr = new XMLHttpRequest();
     xhr.open("GET", file, true);
 
@@ -33,7 +33,7 @@ function fetchCarsData() {
     'use strict';
 
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', 'resources/classicCars.xml', true);
+    xhr.open('GET', '/resources/classicCars.xml', true);
 
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
