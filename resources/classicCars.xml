@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cars SYSTEM "classicCars.dtd">
+<cars xmlns="http://www.vintageclassics.com">
+    <car>
+        <name>Mustang</name>
+        <model>GT500</model>
+        <country>USA</country>
+        <company>Ford</company>
+        <price>$45,000</price>
+        <year>1967</year>
+        <image>mustang_gt500.jpg</image>
+    </car>
+    <car>
+        <name>Camaro</name>
+        <model>Z28</model>
+        <country>USA</country>
+        <company>Chevrolet</company>
+        <price>$38,000</price>
+        <year>1969</year>
+        <image>camaro_z28.jpg</image>
+    </car>
+    <car>
+        <name>Corvette Stingray</name>
+        <model>C2</model>
+        <country>USA</country>
+        <company>Chevrolet</company>
+        <price>$60,000</price>
+        <year>1963</year>
+        <image>corvette_c2.jpg</image>
+    </car>
+    <car>
+        <name>Jaguar E-Type</name>
+        <model>Series 1</model>
+        <country>UK</country>
+        <company>Jaguar</company>
+        <price>$85,000</price>
+        <year>1961</year>
+        <image>jaguar_etype.jpg</image>
+    </car>
+    <car>
+        <name>Aston Martin</name>
+        <model>DB5</model>
+        <country>UK</country>
+        <company>Aston Martin</company>
+        <price>$125,000</price>
+        <year>1964</year>
+        <image>aston_martin_db5.jpg</image>
+    </car>
+    <car>
+        <name>Porsche 911</name>
+        <model>Carrera RS</model>
+        <country>Germany</country>
+        <company>Porsche</company>
+        <price>$95,000</price>
+        <year>1973</year>
+        <image>porsche_911.jpg</image>
+    </car>
+    <car>
+        <name>Ferrari</name>
+        <model>250 GTO</model>
+        <country>Italy</country>
+        <company>Ferrari</company>
+        <price>$1,200,000</price>
+        <year>1962</year>
+        <image>ferrari_250_gto.jpg</image>
+    </car>
+    <car>
+        <name>Lamborghini Miura</name>
+        <model>P400</model>
+        <country>Italy</country>
+        <company>Lamborghini</company>
+        <price>$1,700,000</price>
+        <year>1966</year>
+        <image>lamborghini_miura.jpg</image>
+    </car>
+    <car>
+        <name>Mercedes-Benz</name>
+        <model>300SL</model>
+        <country>Germany</country>
+        <company>Mercedes-Benz</company>
+        <price>$150,000</price>
+        <year>1954</year>
+        <image>mercedes_300sl.jpg</image>
+    </car>
+    <car>
+        <name>Volkswagen Beetle</name>
+        <model>Type 1</model>
+        <country>Germany</country>
+        <company>Volkswagen</company>
+        <price>$15,000</price>
+        <year>1967</year>
+        <image>vw_beetle.jpg</image>
+    </car>
+    <car>
+        <name>Alfa Romeo</name>
+        <model>Spider</model>
+        <country>Italy</country>
+        <company>Alfa Romeo</company>
+        <price>$25,000</price>
+        <year>1966</year>
+        <image>alfa_romeo_spider.jpg</image>
+    </car>
+    <car>
+        <name>BMW</name>
+        <model>2002 Turbo</model>
+        <country>Germany</country>
+        <company>BMW</company>
+        <price>$50,000</price>
+        <year>1973</year>
+        <image>bmw_2002_turbo.jpg</image>
+    </car>
+    <car>
+        <name>Dodge Charger</name>
+        <model>500</model>
+        <country>USA</country>
+        <company>Dodge</company>
+        <price>$55,000</price>
+        <year>1969</year>
+        <image>dodge_charger.jpg</image>
+    </car>
+    <car>
+        <name>Shelby Cobra</name>
+        <model>427</model>
+        <country>USA</country>
+        <company>Shelby American</company>
+        <price>$120,000</price>
+        <year>1965</year>
+        <image>shelby_cobra.jpg</image>
+    </car>
+    <car>
+        <name>Citroën DS</name>
+        <model>21</model>
+        <country>France</country>
+        <company>Citroën</company>
+        <price>$30,000</price>
+        <year>1961</year>
+        <image>citroen_ds.jpg</image>
+    </car>
+</cars>
