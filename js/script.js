@@ -23,7 +23,7 @@ function navigateTo(page) {
     'use strict';
 
     // update the URL without reloading the page
-    const url = page === "home" ? "/" : "/cars";
+    const url = page === "home" ? "/XML-Classics" : "/cars";
     history.pushState({ page: page }, null, url);
 
     loadContent(page);
@@ -81,7 +81,7 @@ function init() {
     'use strict';
 
     // add event listeners to navigation links
-    document.getElementById("home-link").addEventListener("click", () => navigateTo("/"));
+    document.getElementById("home-link").addEventListener("click", () => navigateTo("/XML-Classics"));
     document.getElementById("sale-link").addEventListener("click", () => navigateTo("/cars"));
 
     // add the event listener to the rendered button
