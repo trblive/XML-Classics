@@ -1,7 +1,7 @@
 function loadContent(page) {
     'use strict';
 
-    const file = page === "home" ? "/resources/home.html" : "/resources/cars.html";
+    const file = page === "home" ? "/XML-Classics/resources/home.html" : "/XML-Classics/resources/cars.html";
     const xhr = new XMLHttpRequest();
     xhr.open("GET", file, true);
 
@@ -23,7 +23,7 @@ function navigateTo(page) {
     'use strict';
 
     // update the URL without reloading the page
-    const url = page === "home" ? "/XML-Classics" : "/cars";
+    const url = page === "home" ? "/XML-Classics" : "/XML-Classics/cars";
     history.pushState({ page: page }, null, url);
 
     loadContent(page);
@@ -33,7 +33,7 @@ function fetchCarsData() {
     'use strict';
 
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', '/resources/classicCars.xml', true);
+    xhr.open('GET', '/XML-Classics/resources/classicCars.xml', true);
 
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
@@ -82,7 +82,7 @@ function init() {
 
     // add event listeners to navigation links
     document.getElementById("home-link").addEventListener("click", () => navigateTo("/XML-Classics"));
-    document.getElementById("sale-link").addEventListener("click", () => navigateTo("/cars"));
+    document.getElementById("sale-link").addEventListener("click", () => navigateTo("/XML-Classics/cars"));
 
     // add the event listener to the rendered button
     if (document.getElementById("sale-btn")) {
@@ -99,7 +99,7 @@ function init() {
     };
 
     // load the correct content based on the URL
-    const initialPage = window.location.pathname === "/cars" ? "cars" : "home";
+    const initialPage = window.location.pathname === "/XML-Classics/cars" ? "cars" : "home";
     navigateTo(initialPage);
 }
 
